@@ -1,0 +1,40 @@
+{
+ "samples": {
+  "B08": {
+   "regen_new_md5": "0fae18a4738299b59f319067bd50a2df",
+   "disk_md5": "0fae18a4738299b59f319067bd50a2df",
+   "old_md5": "512ab7a1d9830cacd1244df519cdeeda",
+   "match_beta1_rebuild": true,
+   "differs_from_polluted": true
+  },
+  "BW02": {
+   "regen_new_md5": "3f093f7d9dde3d47785ead94721b294f",
+   "disk_md5": "3f093f7d9dde3d47785ead94721b294f",
+   "old_md5": "64e4753ba295be4df00f4aacf32046d6",
+   "match_beta1_rebuild": true,
+   "differs_from_polluted": true
+  },
+  "BW06": {
+   "regen_new_md5": "00d1e2fc2e9d18b50fc0f6ff422ee628",
+   "disk_md5": "00d1e2fc2e9d18b50fc0f6ff422ee628",
+   "old_md5": "50dfbcd098e03d33c7441ba8366234ec",
+   "match_beta1_rebuild": true,
+   "differs_from_polluted": true
+  },
+  "CH06": {
+   "regen_new_md5": "3d917574e166acb231645755c712e652",
+   "disk_md5": "3d917574e166acb231645755c712e652",
+   "old_md5": "4e612178fb3536215886669b6462a994",
+   "match_beta1_rebuild": true,
+   "differs_from_polluted": true
+  },
+  "H11": {
+   "regen_new_md5": "c25ccf846fb7b1895e2268b8fe860171",
+   "disk_md5": "c25ccf846fb7b1895e2268b8fe860171",
+   "old_md5": "fbddc42293b8526e48e925651d6568c4",
+   "match_beta1_rebuild": true,
+   "differs_from_polluted": true
+  }
+ },
+ "pass": true
+}

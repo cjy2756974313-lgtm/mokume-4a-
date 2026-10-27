@@ -1,0 +1,39 @@
+﻿sample,species_code,species,scientific,anatomy,anatomy_note,ray_visibility_prior,ray_visibility_confirmed
+B08,B,Beech,Fagus spp.,散孔材,,可见,TBD
+B10,B,Beech,Fagus spp.,散孔材,,可见,TBD
+BW02,BW,Black walnut,Juglans nigra,半环孔材,Juglans 属典型半环孔；三类合并时建议随散孔材或单独成组,弱可见,TBD
+BW06,BW,Black walnut,Juglans nigra,半环孔材,Juglans 属典型半环孔；三类合并时建议随散孔材或单独成组,弱可见,TBD
+CH04,CH,Cherry,Prunus serotina,散孔材,,弱可见,TBD
+CH06,CH,Cherry,Prunus serotina,散孔材,,弱可见,TBD
+CN01,CN,Kuri,Castanea crenata,环孔材,,可见,TBD
+CN03,CN,Kuri,Castanea crenata,环孔材,,可见,TBD
+H01,H,Hinoki,Chamaecyparis obtusa,针叶材,,不可见,TBD
+H06,H,Hinoki,Chamaecyparis obtusa,针叶材,,不可见,TBD
+H11,H,Hinoki,Chamaecyparis obtusa,针叶材,,不可见,TBD
+H14,H,Hinoki,Chamaecyparis obtusa,针叶材,,不可见,TBD
+IC04,IC,Icho,Ginkgo biloba,针叶材,含银杏（无孔材，裸子植物）,不可见,TBD
+IC06,IC,Icho,Ginkgo biloba,针叶材,含银杏（无孔材，裸子植物）,不可见,TBD
+K04,K,Keyaki,Zelkova serrata,环孔材,,可见,TBD
+K08,K,Keyaki,Zelkova serrata,环孔材,,可见,TBD
+KR01,KR,Kurumi,Juglans mandshurica,半环孔材,Juglans 属典型半环孔；三类合并时建议随散孔材或单独成组,弱可见,TBD
+KR07,KR,Kurumi,Juglans mandshurica,半环孔材,Juglans 属典型半环孔；三类合并时建议随散孔材或单独成组,弱可见,TBD
+MP04,MP,Maple,Acer spp.,散孔材,,弱可见,TBD
+MP07,MP,Maple,Acer spp.,散孔材,,弱可见,TBD
+MZ03,MZ,Mizume,Betula grossa,散孔材,,可见,TBD
+MZ08,MZ,Mizume,Betula grossa,散孔材,,可见,TBD
+N01,N,Nara,Quercus crispula,环孔材,,可见,TBD
+N07,N,Nara,Quercus crispula,环孔材,,可见,TBD
+NR04,NR,Nire,Ulmus davidiana,环孔材,,弱可见,TBD
+NR10,NR,Nire,Ulmus davidiana,环孔材,,弱可见,TBD
+P06,P,Platanus,Platanus occidentalis,散孔材,,可见,TBD
+P10,P,Platanus,Platanus occidentalis,散孔材,,可见,TBD
+RO03,RO,Red oak,Quercus rubra,环孔材,,可见,TBD
+RO09,RO,Red oak,Quercus rubra,环孔材,,可见,TBD
+S02,S,Sakura,Prunus spp.,散孔材,,弱可见,TBD
+S08,S,Sakura,Prunus spp.,散孔材,,弱可见,TBD
+SG03,SG,Sugi,Cryptomeria japonica,针叶材,,不可见,TBD
+SG06,SG,Sugi,Cryptomeria japonica,针叶材,,不可见,TBD
+SG15,SG,Sugi,Cryptomeria japonica,针叶材,,不可见,TBD
+SG16,SG,Sugi,Cryptomeria japonica,针叶材,,不可见,TBD
+TC04,TC,Tochinoki,Aesculus turbinata,散孔材,,弱可见,TBD
+TC05,TC,Tochinoki,Aesculus turbinata,散孔材,,弱可见,TBD

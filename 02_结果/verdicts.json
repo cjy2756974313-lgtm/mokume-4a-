@@ -1,0 +1,43 @@
+{
+ "V1_dirs_eq_manifest": {
+  "manifest_count": 38,
+  "manifest_unique": true,
+  "dir_count": 38,
+  "dir_eq_manifest": true,
+  "extra": [],
+  "missing": [],
+  "pass": true
+ },
+ "V2_completeness": {
+  "pass": true
+ },
+ "V3_unet_split": {
+  "pass": true,
+  "leak": []
+ },
+ "V4_cube_before_eval": {
+  "pass": true
+ },
+ "V5_no_cut_in_generation": {
+  "pass": true
+ },
+ "V6_eval_no_gt_color": {
+  "uses_gt_cut_color_stats": false,
+  "uses_outer_face_stats": true,
+  "pass": true
+ },
+ "V7_regen_consistency": {
+  "pass": true
+ },
+ "V9_V10_no_selection_artifacts": {
+  "pass": true,
+  "hits": [],
+  "code_files": []
+ },
+ "V8_metric_replay": {
+  "pass": true,
+  "n": 38,
+  "pass_count": 38,
+  "max_rel_diff": 0.0
+ }
+}

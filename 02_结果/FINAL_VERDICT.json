@@ -1,0 +1,14 @@
+{
+ "all_pass": true,
+ "per_item": {
+  "V1_dirs_eq_manifest": true,
+  "V2_completeness": true,
+  "V3_unet_split": true,
+  "V4_cube_before_eval": true,
+  "V5_no_cut_in_generation": true,
+  "V6_eval_no_gt_color": true,
+  "V7_regen_consistency": true,
+  "V9_V10_no_selection_artifacts": true,
+  "V8_metric_replay": true
+ }
+}

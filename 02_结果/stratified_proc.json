@@ -1,0 +1,117 @@
+{
+  "anatomy_4way": {
+    "散孔材": {
+      "n": 14,
+      "samples": [
+        "B08",
+        "B10",
+        "CH04",
+        "CH06",
+        "MP04",
+        "MP07",
+        "MZ03",
+        "MZ08",
+        "P06",
+        "P10",
+        "S02",
+        "S08",
+        "TC04",
+        "TC05"
+      ],
+      "proc_L1": 0.0271,
+      "proc_RMSE": 0.0361,
+      "proc_DISTS": 0.2966,
+      "proc_VGG-SWD2": 0.3773,
+      "proc_RingF1": 0.1455
+    },
+    "半环孔材": {
+      "n": 4,
+      "samples": [
+        "BW02",
+        "BW06",
+        "KR01",
+        "KR07"
+      ],
+      "proc_L1": 0.0368,
+      "proc_RMSE": 0.0484,
+      "proc_DISTS": 0.322,
+      "proc_VGG-SWD2": 0.458,
+      "proc_RingF1": 0.0656
+    },
+    "环孔材": {
+      "n": 10,
+      "samples": [
+        "CN01",
+        "CN03",
+        "K04",
+        "K08",
+        "N01",
+        "N07",
+        "NR04",
+        "NR10",
+        "RO03",
+        "RO09"
+      ],
+      "proc_L1": 0.045,
+      "proc_RMSE": 0.0597,
+      "proc_DISTS": 0.3284,
+      "proc_VGG-SWD2": 0.478,
+      "proc_RingF1": 0.2171
+    },
+    "针叶材": {
+      "n": 10,
+      "samples": [
+        "H01",
+        "H06",
+        "H11",
+        "H14",
+        "IC04",
+        "IC06",
+        "SG03",
+        "SG06",
+        "SG15",
+        "SG16"
+      ],
+      "proc_L1": 0.0306,
+      "proc_RMSE": 0.0408,
+      "proc_DISTS": 0.2864,
+      "proc_VGG-SWD2": 0.319,
+      "proc_RingF1": 0.2654
+    }
+  },
+  "anatomy_3way_merged": {
+    "散孔材": {
+      "n": 14,
+      "proc_L1": 0.0271,
+      "proc_RMSE": 0.0361,
+      "proc_DISTS": 0.2966,
+      "proc_VGG-SWD2": 0.3773,
+      "proc_RingF1": 0.1455
+    },
+    "散孔材(含半环孔)": {
+      "n": 4,
+      "proc_L1": 0.0368,
+      "proc_RMSE": 0.0484,
+      "proc_DISTS": 0.322,
+      "proc_VGG-SWD2": 0.458,
+      "proc_RingF1": 0.0656
+    },
+    "环孔材": {
+      "n": 10,
+      "proc_L1": 0.045,
+      "proc_RMSE": 0.0597,
+      "proc_DISTS": 0.3284,
+      "proc_VGG-SWD2": 0.478,
+      "proc_RingF1": 0.2171
+    },
+    "针叶材": {
+      "n": 10,
+      "proc_L1": 0.0306,
+      "proc_RMSE": 0.0408,
+      "proc_DISTS": 0.2864,
+      "proc_VGG-SWD2": 0.319,
+      "proc_RingF1": 0.2654
+    }
+  },
+  "note": "半环孔材=Juglans属(BW/KR)；银杏IC为无孔材归针叶组；射线可见性为材种级先验，逐块确认见 review_ray_montage.png（TBD）"
+}

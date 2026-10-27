@@ -1,0 +1,382 @@
+[
+  {
+    "sample": "B08",
+    "species_code": "B",
+    "species": "Beech",
+    "scientific": "Fagus spp.",
+    "anatomy": "散孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "B10",
+    "species_code": "B",
+    "species": "Beech",
+    "scientific": "Fagus spp.",
+    "anatomy": "散孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "BW02",
+    "species_code": "BW",
+    "species": "Black walnut",
+    "scientific": "Juglans nigra",
+    "anatomy": "半环孔材",
+    "anatomy_note": "Juglans 属典型半环孔；三类合并时建议随散孔材或单独成组",
+    "ray_visibility_prior": "弱可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "BW06",
+    "species_code": "BW",
+    "species": "Black walnut",
+    "scientific": "Juglans nigra",
+    "anatomy": "半环孔材",
+    "anatomy_note": "Juglans 属典型半环孔；三类合并时建议随散孔材或单独成组",
+    "ray_visibility_prior": "弱可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "CH04",
+    "species_code": "CH",
+    "species": "Cherry",
+    "scientific": "Prunus serotina",
+    "anatomy": "散孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "弱可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "CH06",
+    "species_code": "CH",
+    "species": "Cherry",
+    "scientific": "Prunus serotina",
+    "anatomy": "散孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "弱可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "CN01",
+    "species_code": "CN",
+    "species": "Kuri",
+    "scientific": "Castanea crenata",
+    "anatomy": "环孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "CN03",
+    "species_code": "CN",
+    "species": "Kuri",
+    "scientific": "Castanea crenata",
+    "anatomy": "环孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "H01",
+    "species_code": "H",
+    "species": "Hinoki",
+    "scientific": "Chamaecyparis obtusa",
+    "anatomy": "针叶材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "不可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "H06",
+    "species_code": "H",
+    "species": "Hinoki",
+    "scientific": "Chamaecyparis obtusa",
+    "anatomy": "针叶材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "不可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "H11",
+    "species_code": "H",
+    "species": "Hinoki",
+    "scientific": "Chamaecyparis obtusa",
+    "anatomy": "针叶材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "不可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "H14",
+    "species_code": "H",
+    "species": "Hinoki",
+    "scientific": "Chamaecyparis obtusa",
+    "anatomy": "针叶材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "不可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "IC04",
+    "species_code": "IC",
+    "species": "Icho",
+    "scientific": "Ginkgo biloba",
+    "anatomy": "针叶材",
+    "anatomy_note": "含银杏（无孔材，裸子植物）",
+    "ray_visibility_prior": "不可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "IC06",
+    "species_code": "IC",
+    "species": "Icho",
+    "scientific": "Ginkgo biloba",
+    "anatomy": "针叶材",
+    "anatomy_note": "含银杏（无孔材，裸子植物）",
+    "ray_visibility_prior": "不可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "K04",
+    "species_code": "K",
+    "species": "Keyaki",
+    "scientific": "Zelkova serrata",
+    "anatomy": "环孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "K08",
+    "species_code": "K",
+    "species": "Keyaki",
+    "scientific": "Zelkova serrata",
+    "anatomy": "环孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "KR01",
+    "species_code": "KR",
+    "species": "Kurumi",
+    "scientific": "Juglans mandshurica",
+    "anatomy": "半环孔材",
+    "anatomy_note": "Juglans 属典型半环孔；三类合并时建议随散孔材或单独成组",
+    "ray_visibility_prior": "弱可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "KR07",
+    "species_code": "KR",
+    "species": "Kurumi",
+    "scientific": "Juglans mandshurica",
+    "anatomy": "半环孔材",
+    "anatomy_note": "Juglans 属典型半环孔；三类合并时建议随散孔材或单独成组",
+    "ray_visibility_prior": "弱可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "MP04",
+    "species_code": "MP",
+    "species": "Maple",
+    "scientific": "Acer spp.",
+    "anatomy": "散孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "弱可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "MP07",
+    "species_code": "MP",
+    "species": "Maple",
+    "scientific": "Acer spp.",
+    "anatomy": "散孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "弱可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "MZ03",
+    "species_code": "MZ",
+    "species": "Mizume",
+    "scientific": "Betula grossa",
+    "anatomy": "散孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "MZ08",
+    "species_code": "MZ",
+    "species": "Mizume",
+    "scientific": "Betula grossa",
+    "anatomy": "散孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "N01",
+    "species_code": "N",
+    "species": "Nara",
+    "scientific": "Quercus crispula",
+    "anatomy": "环孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "N07",
+    "species_code": "N",
+    "species": "Nara",
+    "scientific": "Quercus crispula",
+    "anatomy": "环孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "NR04",
+    "species_code": "NR",
+    "species": "Nire",
+    "scientific": "Ulmus davidiana",
+    "anatomy": "环孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "弱可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "NR10",
+    "species_code": "NR",
+    "species": "Nire",
+    "scientific": "Ulmus davidiana",
+    "anatomy": "环孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "弱可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "P06",
+    "species_code": "P",
+    "species": "Platanus",
+    "scientific": "Platanus occidentalis",
+    "anatomy": "散孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "P10",
+    "species_code": "P",
+    "species": "Platanus",
+    "scientific": "Platanus occidentalis",
+    "anatomy": "散孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "RO03",
+    "species_code": "RO",
+    "species": "Red oak",
+    "scientific": "Quercus rubra",
+    "anatomy": "环孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "RO09",
+    "species_code": "RO",
+    "species": "Red oak",
+    "scientific": "Quercus rubra",
+    "anatomy": "环孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "S02",
+    "species_code": "S",
+    "species": "Sakura",
+    "scientific": "Prunus spp.",
+    "anatomy": "散孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "弱可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "S08",
+    "species_code": "S",
+    "species": "Sakura",
+    "scientific": "Prunus spp.",
+    "anatomy": "散孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "弱可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "SG03",
+    "species_code": "SG",
+    "species": "Sugi",
+    "scientific": "Cryptomeria japonica",
+    "anatomy": "针叶材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "不可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "SG06",
+    "species_code": "SG",
+    "species": "Sugi",
+    "scientific": "Cryptomeria japonica",
+    "anatomy": "针叶材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "不可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "SG15",
+    "species_code": "SG",
+    "species": "Sugi",
+    "scientific": "Cryptomeria japonica",
+    "anatomy": "针叶材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "不可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "SG16",
+    "species_code": "SG",
+    "species": "Sugi",
+    "scientific": "Cryptomeria japonica",
+    "anatomy": "针叶材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "不可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "TC04",
+    "species_code": "TC",
+    "species": "Tochinoki",
+    "scientific": "Aesculus turbinata",
+    "anatomy": "散孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "弱可见",
+    "ray_visibility_confirmed": "TBD"
+  },
+  {
+    "sample": "TC05",
+    "species_code": "TC",
+    "species": "Tochinoki",
+    "scientific": "Aesculus turbinata",
+    "anatomy": "散孔材",
+    "anatomy_note": "",
+    "ray_visibility_prior": "弱可见",
+    "ray_visibility_confirmed": "TBD"
+  }
+]

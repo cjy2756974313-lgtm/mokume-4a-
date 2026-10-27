@@ -1,0 +1,42 @@
+{
+  "protocol_version": "2026-10-24",
+  "device": "server-r740, RTX GPU (mokume env), CUDA_DEVICE_ORDER=PCI_BUS_ID",
+  "definitions": {
+    "适配分钟数": "逐木块适配总时长 = Step2 年轮提取 + Step3 生长场拟合 + 4a 外观适配（PROC 行）；NCA 行为 Step2 + Step3 + NCA 逐块训练。不含评价。",
+    "单图秒数": "已拟合模型产出一张 256x256 目标切面图的耗时。PROC = 程序化函数直接求值 65536 个切面坐标（CPU，与 build_volume 同函数同参数）；体已建后的最近邻采样为 0.006 s，仅作参考。",
+    "数据学习": "一次性成本，不计入逐木块适配：U-Net 年轮提取器训练（公开权重，训练清单与 38 块测试集零交集）、VGG 等预训练网络。"
+  },
+  "per_block_adaptation_min": {
+    "step2_unet_6faces": {
+      "value": 0.003,
+      "note": "实测吞吐：49 个 64x64 patch 批次 0.028 s x 6 面 ≈ 0.17 s（GPU），含 IO 按 0.2 s 计"
+    },
+    "step3_gf_fitting": {
+      "value_contended_mean": 85.0,
+      "value_contended_range": [55.0, 113.0],
+      "note": "v1 批日志 400 iter 实测 55-113 min/块，当时 15 并发争用同一 GPU（上界）；低争用期样本（H14/SG/TC 系）55-69 min。干净单卡未单独重测。",
+      "evidence": "moke_4a_20261019/code/batch_logs/*.log 400-iter tqdm 条"
+    },
+    "step4a_proc_fitting": {
+      "value": 6.4,
+      "breakdown_s": {"stageA_100it": 54, "stageB_100it": 60, "stageC_grid27": 7, "stageD_200it": 201, "build_volume_256cube": 58},
+      "note": "干净单卡实测（H11 knot 重建 2026-10-23，GPU1 独占）；非 knot 运行结构相同。v1 争用期日志 4a 合计 4.7-11.4 min。",
+      "evidence": "moke_4a_holdout_v2_20261021/code/batch_logs/H11.knot.log"
+    },
+    "step4b_nca_training_H11": {
+      "value": 193.6,
+      "note": "H11 NCA 1500 epoch 实测 11613.7 s = 193.6 min（GPU 独占）；38 块全量需约 5 天单卡。",
+      "evidence": "v2/nca_train_H11.log"
+    },
+    "evaluation_not_counted": {"value": 0.33, "note": "reeval_log.json 实测约 20 s/块，不计入适配"}
+  },
+  "per_image_sec": {
+    "proc_direct_eval": {"value": 0.19, "note": "程序化函数直接求值 256x256 切面（5 次取后 4 次均值，CPU）"},
+    "proc_cube_sample": {"value": 0.006, "note": "体已建后最近邻采样（20 次均值）"},
+    "nca_cube_sample": {"value": 0.006, "note": "与 PROC 同为体采样；NCA 的 256^3 cube 生成是一次性成本，未单独计时"}
+  },
+  "table3_row_values": {
+    "Mokume_PROC_row": {"适配分钟数": "6.4（外观适配）+ 生长场拟合（共享，见注）", "单图秒数": 0.19},
+    "Mokume_NCA_row": {"适配分钟数": "193.6（H11）+ 生长场拟合（共享）", "单图秒数": "0.006（体采样；cube 生成未摊销）"}
+  }
+}
